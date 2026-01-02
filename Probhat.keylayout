@@ -81,7 +81,7 @@
 			<key code="39" output="&#x0027;"/>
 			<key code="40" output="ক"/>
 			<key code="41" output=";"/>
-			<key code="42" output="\"/>
+			<key code="42" output="&#8204;"/>
 			<key code="43" output=","/>
 			<key code="44" output="্"/>
 			<key code="45" output="ন"/>
@@ -89,7 +89,7 @@
 			<key code="47" output="।"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="&#8204;"/>
+			<key code="50" output="&#8205;"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -185,7 +185,7 @@
 			<key code="39" output="&#x0022;"/>
 			<key code="40" output="খ"/>
 			<key code="41" output=":"/>
-			<key code="42" output="|"/>
+			<key code="42" output="&#x0965;"/>
 			<key code="43" output="ৃ"/>
 			<key code="44" output="?"/>
 			<key code="45" output="ণ"/>
