@@ -70,6 +70,41 @@ sudo bash install.sh
 curl https://raw.githubusercontent.com/mdminhazulhaque/probhat-macos/master/install.sh | sudo bash
 ```
 
+### Method 3: Nix Flake
+
+#### Option A — Install directly to your Nix profile
+
+```bash
+nix profile install github:mdminhazulhaque/probhat-macos
+sudo cp ~/.nix-profile/Library/Keyboard\ Layouts/Probhat.* /Library/Keyboard\ Layouts/
+```
+
+#### Option B — nix-darwin module
+
+Add the flake as an input and enable the module in your `darwin-configuration.nix`:
+
+```nix
+{
+  inputs.probhat-macos = {
+    url = "github:mdminhazulhaque/probhat-macos";
+    inputs.nixpkgs.follows = "nixpkgs";
+  };
+
+  outputs = { self, darwin, nixpkgs, probhat-macos, ... }: {
+    darwinConfigurations."my-mac" = darwin.lib.darwinSystem {
+      modules = [
+        probhat-macos.darwinModules.default
+        {
+          programs.probhat.enable = true;
+        }
+      ];
+    };
+  };
+}
+```
+
+Then apply with `darwin-rebuild switch`.
+
 ---
 
 Enter your password when prompted. The installer will copy the necessary files to `/Library/Keyboard\ Layouts` directory.
