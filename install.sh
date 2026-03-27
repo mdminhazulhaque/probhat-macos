@@ -12,7 +12,7 @@ fi
 cd "$DEST"
 sudo rm -f Probhat.keylayout
 sudo rm -f Probhat.icns
-sudo curl -f -O# https://raw.githubusercontent.com/mdminhazulhaque/probhat-osx/master/Probhat.keylayout
-sudo curl -f -O# https://raw.githubusercontent.com/mdminhazulhaque/probhat-osx/master/Probhat.icns
+sudo curl -f -O# https://raw.githubusercontent.com/mdminhazulhaque/probhat-macos/master/Probhat.keylayout
+sudo curl -f -O# https://raw.githubusercontent.com/mdminhazulhaque/probhat-macos/master/Probhat.icns
 
 echo "Probhat keyboard layout installed successfully. Please reboot to apply changes."

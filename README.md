@@ -53,7 +53,7 @@ This implementation is a custom XML-based layout for macOS, derived from the ori
 
 ```bash
 # Download the installation script
-curl -O https://raw.githubusercontent.com/mdminhazulhaque/probhat-osx/master/install.sh
+curl -O https://raw.githubusercontent.com/mdminhazulhaque/probhat-macos/master/install.sh
 
 # Inspect the script (optional but recommended)
 cat install.sh
@@ -67,7 +67,7 @@ sudo bash install.sh
 > ⚠️ **Warning:** This method pipes directly to bash. Use Method 1 for better security.
 
 ```bash
-curl https://raw.githubusercontent.com/mdminhazulhaque/probhat-osx/master/install.sh | sudo bash
+curl https://raw.githubusercontent.com/mdminhazulhaque/probhat-macos/master/install.sh | sudo bash
 ```
 
 ---
@@ -84,7 +84,7 @@ Enter your password when prompted. The installer will copy the necessary files t
 
 ```bash
 # Download the uninstall script
-curl -O https://raw.githubusercontent.com/mdminhazulhaque/probhat-osx/master/uninstall.sh
+curl -O https://raw.githubusercontent.com/mdminhazulhaque/probhat-macos/master/uninstall.sh
 
 # Inspect the script (optional but recommended)
 cat uninstall.sh
@@ -98,7 +98,7 @@ sudo bash uninstall.sh
 > ⚠️ **Warning:** This method pipes directly to bash. Use Method 1 for better security.
 
 ```bash
-curl https://raw.githubusercontent.com/mdminhazulhaque/probhat-osx/master/uninstall.sh | sudo bash
+curl https://raw.githubusercontent.com/mdminhazulhaque/probhat-macos/master/uninstall.sh | sudo bash
 ```
 
 ---
