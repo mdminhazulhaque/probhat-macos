@@ -41,7 +41,7 @@ This implementation is a custom XML-based layout for macOS, derived from the ori
 
 ## ⌨️ Layout
 
-![Probhat Layout](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/KB-Bengali-Probhat.svg/800px-KB-Bengali-Probhat.svg.png)
+![Probhat Layout](probhat-layout.png)
 
 ---
 
