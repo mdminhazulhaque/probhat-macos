@@ -47,7 +47,7 @@ This implementation is a custom XML-based layout for macOS, derived from the ori
 
 ## 🚀 Installation
 
-> **Tested up to macOS 26**
+> **Tested up to macOS 15 Sequoia**
 
 ### Method 1: Download & Inspect (Recommended)
 
